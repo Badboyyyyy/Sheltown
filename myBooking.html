@@ -29,7 +29,7 @@
                 color: white;
                 font-size: 25px;
                 margin-right: 20px;
-            }AS
+            }
 
             .fa-user-circle {
                 color: #2ECAB6;
@@ -58,19 +58,20 @@
                 background-color: none;
             }
             .rating label:before{
-                content: '.\f005';
+                content: '\f005';
                 font-family: fontAwesome;
+                 color:#EAEDED;
                 position: relative;
                 display: block;
                 font-size: 50px;
             }
             .rating label:after{
-                content: '.\f005';
+                content: '\f005';
                 font-family: fontAwesome;
                 position: relative;
                 display: block;
                 font-size: 50px;
-                color: blue;
+                color:#ffc700;
                 position: absolute;
                 top:0%;
                 opacity: 0;
@@ -216,7 +217,7 @@
                         </ul>
                     </div>
                     <div style="margin-top: 20px;">
-                        <a href="#review" data-toggle="modal" data-target="#review"><i class="fas fa-star"></i>Rate And Review Properties</a>
+                        <a href="#review" data-toggle="modal" data-target="#review"><i class="fas fa-star"  style="color:green"></i>Rate And Review Properties</a>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                          <div class="rating" style="position: absolute; top:50%; left:45%; transform: translate(-50%, -50%) rotateY(180deg); display: flex;">
+                          <div class="rating" style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%) rotateY(180deg); display: flex;">
                                 <input type="radio" name="star1" id="star1"><label for="star1"></label>
                                 <input type="radio" name="star2" id="star2"><label for="star2"></label>
                                 <input type="radio" name="star3" id="star3"><label for="star3"></label>
